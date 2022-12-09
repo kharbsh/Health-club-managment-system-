@@ -4,7 +4,7 @@ import java.util.*;
 
 public class User {
     protected String UserName;
-    protected int Id = 0;
+    protected int Id ;
     protected String Password;
     protected java.util.Date dateCreated;
     
