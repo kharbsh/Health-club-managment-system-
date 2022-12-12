@@ -22,7 +22,7 @@ lname nvarchar(50)
 )
 create table users (
 ID int primary key identity(1,1),
-username nvarchar(50),
+username nvarchar(50) UNIQUE,
 [password] nvarchar(50),
 coach_id int references coaches(ID) on update cascade  on delete set null,
 fname nvarchar(50),
